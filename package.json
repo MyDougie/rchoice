@@ -1,0 +1,21 @@
+{
+  "name": "rchoice",
+  "version": "1.0.0",
+  "description": "reasonable choice with React and React Native + Prisma + Express",
+  "repository": "https://github.com/MyDougie/rchoice.git",
+  "author": "MyDougie <01046009100@hanmail.net>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}

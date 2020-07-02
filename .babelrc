@@ -1,0 +1,4 @@
+//get all of plugins to compile es6 function
+{
+  "presets": ["@babel/preset-env"]
+}
